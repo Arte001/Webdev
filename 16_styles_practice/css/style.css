@@ -1,7 +1,10 @@
 @import url(reset.css);
 
-.header-container h1 {
+div {
 	width: 1440px;
+}
+
+.header-container h1 {
 	height: 200px;
 	background-color: #E5E000;
 	font-family: Helvetica;
@@ -14,13 +17,11 @@
 	color: white;
 } 
 .image-container {
-	width:1440px;
 	height:1080px;
 	background-image: url(../img/img.png);
 }
 
 .links-container h2 {
-	width: 1440px;
 	height: 100px;
 	top: 1280px;
 	background-color: #E5E000;
@@ -51,19 +52,25 @@ p, ul {
 	line-height: 57px;
 	color: #000000;
 }
+footer {
+	align-items: center;
+}
+
 .footer-container {
-	width: 1440px;
 	height: 200px;
 	background-color: #E5E000;
 	background-color: #E5E000;
-	text-align: right;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	align-items: center;
+}
+.footer-text {
 	font-family: Helvetica;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 50px;
 	line-height: 57px;
-	display: flex;
-	align-items: center;
-
 	color: white;
+	text-align: right;
 }
