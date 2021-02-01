@@ -63,7 +63,6 @@ footer {
 	background-image: url(../img/logo.png);
 	background-repeat: no-repeat;
 	background-position: left;
-	align-items: center;
 }
 .footer-text {
 	font-family: Helvetica;
@@ -72,5 +71,5 @@ footer {
 	font-size: 50px;
 	line-height: 57px;
 	color: white;
-	text-align: right;
+	align-items: center;
 }
