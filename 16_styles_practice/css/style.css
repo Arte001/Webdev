@@ -15,7 +15,7 @@ div {
 	display: flex;
 	align-items: center;
 	color: white;
-	padding-left: 80px;
+	padding-left: 50px;
 } 
 .image-container {
 	height:1080px;
@@ -35,7 +35,7 @@ div {
 	align-items: center;
 	text-transform: uppercase;
 	color: white;
-	padding-left: 80px;
+	padding-left: 50px;
 }
 h3 {
 	font-family: Helvetica;
@@ -44,7 +44,7 @@ h3 {
 	font-size: 50px;
 	line-height: 57px;
 	color: #000000;
-	padding-left: 80px;
+	padding-left: 50px;
 }
 
 p, ul {
@@ -54,7 +54,7 @@ p, ul {
 	font-size: 50px;
 	line-height: 57px;
 	color: #000000;
-	padding-left: 80px;
+	padding-left: 50px;
 }
 footer {
 	align-items: center;
@@ -66,8 +66,8 @@ footer {
 	background-color: #E5E000;
 	background-image: url(../img/logo.png);
 	background-repeat: no-repeat;
-	background-position: left;
-	padding-left: 80px;
+	background-position: 50px;
+	padding-left: 50px;
 
 }
 .footer-text {
@@ -79,5 +79,5 @@ footer {
 	color: white;
 	text-align: right;
 	line-height: 200px;
-	padding-right: 80px;
+	padding-right: 50px;
 }
