@@ -67,6 +67,7 @@ footer {
 	background-image: url(../img/logo.png);
 	background-repeat: no-repeat;
 	background-position: left;
+	padding-left: 80px;
 
 }
 .footer-text {
@@ -77,4 +78,6 @@ footer {
 	line-height: 57px;
 	color: white;
 	text-align: right;
+	line-height: 200px;
+	padding-right: 80px;
 }
