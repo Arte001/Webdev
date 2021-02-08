@@ -19,14 +19,12 @@ h1 {
 	padding-left: 20px;
 }
 
-section {
-	width: 400px;
-	height: 800px;
-	border: 5px solid #E5E000;
-	box-sizing: border-box;
-	border-radius: 30px;
-	margin: 52px auto;
+.content {
 	text-align: center;
+	margin-top: 120px;
+
+	
+
 }
 
 h2 {
@@ -36,19 +34,36 @@ h2 {
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 23px;
-	padding-left: 33px;
 	padding-top: 33px;
 
 }
 .receipt-content.first {
+	width: 400px;
+	height: 800px;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
 	display: inline-block;
+	
 }
 
 .receipt-content.second {
+	width: 400px;
+	height: 800px;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
 	display: inline-block;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 .receipt-content.third {
+	width: 400px;
+	height: 800px;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
 	display: inline-block;
 }
 
@@ -58,11 +73,13 @@ h2 {
 	font-weight: normal;
 	font-size: 20px;
 	line-height: 23px;
-	padding-left: 33px;
 	padding-top: 41px;
 
 }
 .footer {
 	height: 60px;
 	background-color: #FE1A19;
+	position: fixed;
+    left: 0; bottom: 0;
+    width: 100%
 }
