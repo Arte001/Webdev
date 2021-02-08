@@ -21,17 +21,17 @@ h1 {
 
 .content {
 	text-align: center;
-	margin-top: 50px;
+	padding-top: 75px;
 
 	
 
 }
 
 h2 {
-	text-align: center;
 	font-family: Helvetica;
 	font-style: normal;
 	font-weight: bold;
+	text-align: left;
 	font-size: 20px;
 	line-height: 23px;
 	padding-top: 33px;
@@ -44,6 +44,8 @@ h2 {
 	box-sizing: border-box;
 	border-radius: 30px;
 	display: inline-block;
+	text-align: left;
+	padding-left: 33px;
 	
 }
 
@@ -56,6 +58,8 @@ h2 {
 	display: inline-block;
 	margin-left: 100px;
 	margin-right: 100px;
+	text-align: left;
+	padding-left: 33px;
 }
 
 .receipt-content.third {
@@ -65,9 +69,11 @@ h2 {
 	box-sizing: border-box;
 	border-radius: 30px;
 	display: inline-block;
+	text-align: left;
+	padding-left: 33px;
 }
 
-.receipt-text {
+dl {
 	font-family: Times New Roman;
 	font-style: normal;
 	font-weight: normal;
