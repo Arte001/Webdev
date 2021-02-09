@@ -73,15 +73,16 @@ h2 {
 	padding-left: 33px;
 }
 
-dl {
+ul {
 	font-family: Times New Roman;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
 	line-height: 23px;
-	padding-top: 41px;
-
+	padding-top: 23px;
 }
+
+
 .footer {
 	height: 60px;
 	background-color: #FE1A19;
