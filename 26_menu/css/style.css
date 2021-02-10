@@ -35,7 +35,6 @@ h2 {
 	font-size: 20px;
 	line-height: 23px;
 	padding-top: 33px;
-
 }
 .receipt-content.first {
 	width: 400px;
@@ -80,6 +79,14 @@ ul {
 	font-size: 20px;
 	line-height: 23px;
 	padding-top: 23px;
+}
+h3 {
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	font-size: 20px;
+	line-height: 23px;
 }
 
 
