@@ -5,14 +5,15 @@ header {
 	background-color: #FFFFFF;
 	position: fixed;
 	width: 100%;
+	display: flex;
+
 
 	
 }
 .logo-container {
 	height: 140px;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
+	margin-top: 50px;
+
 
 }
 
@@ -26,16 +27,14 @@ h1 {
 	margin-left: 50px;
 
 }
-.links-content {
-
+.links-content  {
+	margin-top: 50px;
 }
 .links-menu {
-	height: 140px;
 	font-family: Arial;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 50px;
-	line-height: 57px;
 	color: #E50043;
 	display: flex;
 	justify-content: space-between;
