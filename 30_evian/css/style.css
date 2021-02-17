@@ -6,14 +6,12 @@ header {
 	position: fixed;
 	width: 100%;
 	display: flex;
-
-
-	
+	justify-content: space-between;
 }
 .logo-container {
 	height: 140px;
 	margin-top: 50px;
-
+	margin-left: 50px;
 
 }
 
@@ -24,11 +22,11 @@ h1 {
 	font-size: 50px;
 	line-height: 57px;
 	color: #E50043;
-	margin-left: 50px;
 
 }
 .links-content  {
 	margin-top: 50px;
+	margin-right: 50px;
 }
 .links-menu {
 	font-family: Arial;
@@ -36,11 +34,14 @@ h1 {
 	font-weight: normal;
 	font-size: 50px;
 	color: #E50043;
+	line-height: 57px;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	margin-left: 950px;
-	margin-right: 50px;
+}
+.link-two {
+	margin-left: 25px;
+	margin-right: 25px;
 }
 
 main {
@@ -103,5 +104,42 @@ p {
 	justify-content: space-around;
 	margin-top: 48px;
 	margin-left: 10px;
-
+}
+.composition-section {
+	width: 1040px;
+	height: 280px;
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
+	align-items: center;
+	text-align: left;
+	display: flex;
+	letter-spacing: 0.05em;
+	justify-content: space-around;
+	margin: 156px auto;
+}
+.bottle-img {
+	margin-left: 80px;
+}
+.bottle-text {
+	margin-right: 30px;
+}
+.footer {
+	height: 140px;
+	background-color: #F8BFC7;
+	margin-top: 150px;
+    width: 100%;
+    display: flex;
+}
+.footer-text {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 57px;
+	align-items: center;
+	color: #FFFFFF;
+	display: flex;
+	margin-top: 50px;
+	margin-left: 50px;
 }
