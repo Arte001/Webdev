@@ -1,7 +1,7 @@
 		@keyframes rotate {
 			/*задайте ваш keyframe здесь*/
 			0% {transform:rotate(0deg);}
-      100% {transform:rotate(360deg);}
+      		100% {transform:rotate(360deg);}
 		}
 		.page {
 		  /* эти единицы измерения мы изучим чуть позже */
@@ -34,6 +34,6 @@
 			animation-name: rotate;
 			animation-duration: 6s;
 			animation-iteration-count: infinite;
-      animation-timing-function: linear;
+      		animation-timing-function: linear;
 			/* вызовите вашу анимацию здесь */
 		}
