@@ -1,0 +1,85 @@
+@import url(reset.css);
+
+.header {
+	height: 160px;
+	background-color: #FFE138;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+h1 {
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 57px;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+.columns {
+	width: 80%;
+	min-height: 985px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+
+}
+.column {
+	width: calc((100% - 100px)/3);
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	margin-top: 70px;
+}
+.column.one {
+	height: 985px;
+}
+.column.two {
+	height: 1010px;
+}
+.image-meta {
+	background-image: url(../img/metaside.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 150%;
+}
+.image-click {
+	background-image: url(../img/clickshelf.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 150%;
+}
+.image-float {
+	background-image: url(../img/floatshelf.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 150%;
+}
+h2 {
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+	margin-left: 33px;
+	margin-top: 30px;
+}
+p {
+	font-family: Times New Roman;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 25px;
+	margin-left: 33px;
+	margin-top: 30px;
+	margin-right: 33px;
+}
+.footer {
+	height: 160px;
+	background-color: #FFE138;
+	margin-top: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
