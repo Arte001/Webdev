@@ -1,0 +1,44 @@
+@import url(reset.css);
+
+header {
+	height: 90px;
+	background-color: #F8BFC7;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.links-content {
+	margin-left: 50px;
+}
+.links-menu {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	color: #000000;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.link-two {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+h1 {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	color: #000000;
+} 
+.menu-link {
+	margin-right: 50px;
+}
+.main-form {
+	max-width: 100%;
+    max-height: 100%;
+	min-height: 643px;
+	background-image: url(../img/background.png);
+}
