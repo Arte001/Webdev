@@ -72,6 +72,7 @@ p {
 		width: 70%;
 		flex-wrap: wrap;
 		justify-content: space-between;
+		margin-top: 72px;
 	}
 	.column {
 		width: 600px;
