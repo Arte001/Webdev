@@ -68,15 +68,15 @@ p {
 }
 @media screen and (min-width: 960px) {
 	.columns {
-		max-height: 900px;
-		width: 70%;
+		max-height: 800px;
+		width: 60vw;
 		flex-wrap: wrap;
 		justify-content: space-between;
 		margin-top: 72px;
 	}
 	.column {
-		width: 600px;
-		height: 400px;
+		width: 40vw;
+		height: 30vh;
 
 	}
 	.footer {
