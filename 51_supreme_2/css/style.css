@@ -1,0 +1,145 @@
+@import url(reset.css);
+.header {
+	height: 25vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.boxlogo {
+	width: 287px;
+	height: 82px;
+	background-color: #FF0000;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 60px;
+	text-align: center;
+	line-height: 82px;
+	letter-spacing: -0.05em;
+	color: white;
+}
+.data-script {
+	font-family: 'Space Mono', monospace;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	line-height: 30px;
+	font-feature-settings: 'calt' off, 'liga' off;
+	text-align: center;
+	margin-top: 35px;
+}
+.main-section {
+	margin-top: 52px;
+}
+.info-container {
+	font-family: Space Mono;
+	font-style: normal;
+	font-weight: normal;
+	display: flex;
+	justify-content: space-around;
+}
+.monograph-img {
+	margin-left: 330px;
+	margin-top: 30px;
+}
+.monograph-text {
+	height: 400px;
+	margin-left: 20px;
+}
+.date-text {
+	font-size: 20px;
+	line-height: 30px;
+}
+h2 {
+	font-size: 25px;
+	line-height: 37px;
+}
+p {
+	font-size: 20px;
+	line-height: 30px;
+	margin-right: 300px;
+	margin-top: 24px;
+}
+.nav-section {
+	font-family: Space Mono;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 30px;
+	font-size: 20px;
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.nav-block {
+	padding-left: 400px;
+}
+.archive-button {
+	height: 30px;
+	background-color: #FF0000;
+	color: white;
+	margin-right: 534px;
+}
+.main-menu {
+	font-family: Space Mono;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 75px;
+	margin-left: 260px;
+	margin-right: 260px;
+}
+ul {
+	display: flex;
+	justify-content: space-around;
+}
+@media all and (max-width: 815px) {
+	.main-section {
+		margin-left: 12px;
+	}
+	.info-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.monograph-img {
+		margin-left: 0;
+		margin-top: 30px;
+	}
+	.monograph-text {
+		margin-left: 0;
+	}
+	p {
+		margin-right: 0px;
+		margin-top: 12px;
+	}
+	.nav-section {
+		display: flex;
+		justify-content: space-between;
+		align-items: stretch;
+	}
+	.nav-block {
+		padding-left: 0;
+		margin-left: 75px;
+	}
+	.archive-button {
+		margin-left: 100px;
+	}
+	.main-menu {
+		margin-top: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	ul {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		margin-top: 15px;
+		margin-left: 0px;
+	}
+	li {
+		text-align: left;
+	}
+}
