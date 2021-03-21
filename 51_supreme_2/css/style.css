@@ -1,4 +1,7 @@
 @import url(reset.css);
+div { 
+	max-width: 1440px;
+}
 .header {
 	height: 25vh;
 	display: flex;
