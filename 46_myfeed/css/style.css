@@ -42,7 +42,7 @@ h1 {
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
-		margin-top: 102px;
+		margin: 102px auto;
 	}
 	.column {
 		width: 30vw;
