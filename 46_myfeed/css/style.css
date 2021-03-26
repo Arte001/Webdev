@@ -62,11 +62,12 @@ p {
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
-		margin: 102px auto;
+		margin: 70px auto;
 	}
 	.column {
 		width: 40vw;
 		height: 18vw;
+
 	}
 	p {
 		font-size: calc(.8rem + .8vw);
